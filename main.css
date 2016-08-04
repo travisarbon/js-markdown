@@ -1,0 +1,31 @@
+body {
+  color: #484a58;
+  font-family: "Arial";
+  font-size: 18px;
+  background-color: #87827f; }
+  body .top, body .end {
+    text-align: center;
+    color: #e5f6ff; }
+  body .end {
+    font-size: 12px; }
+  body #content {
+    width: 100%; }
+    body #content .application {
+      width: 100%;
+      margin: auto; }
+      body #content .application .markdownBox {
+        height: 500px;
+        width: 45%;
+        margin: 30px;
+        background-color: #f0faff; }
+      body #content .application .previewBox {
+        height: 500px;
+        width: 45%;
+        margin: 30px;
+        background-color: #edfafd;
+        padding: 15px;
+        border-radius: 5px;
+        overflow: scroll;
+        word-wrap: break-word; }
+
+/*# sourceMappingURL=main.css.map */

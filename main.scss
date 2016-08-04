@@ -1,0 +1,52 @@
+$box-height: 500px;
+$box-width: 355px;
+$box-margin: 30px;
+$text-color: #484a58;
+$font: "Arial";
+$text-size: 16px;
+$body-background: #87827f;
+$background-color: #ff9645;
+
+
+body{
+
+  color: $text-color;
+  font-family: $font;
+  font-size : 18px;
+  background-color: $body-background;
+
+  .top, .end{
+    text-align: center;
+    color: #e5f6ff;
+  }
+
+  .end {
+    font-size: 12px;
+  }
+
+  #content {
+    width: 100%;
+
+    .application {
+      width: 100%;
+      margin: auto;
+
+      .markdownBox {
+        height: $box-height;
+        width: 45%;
+        margin: $box-margin;
+        background-color: #f0faff;
+      }
+      .previewBox {
+        height: $box-height;
+        width: 45%;
+        margin: $box-margin;
+        background-color: #edfafd;
+        padding: 15px;
+        border-radius: 5px;
+        overflow: scroll;
+        word-wrap: break-word;
+      }
+    }
+  }
+}
